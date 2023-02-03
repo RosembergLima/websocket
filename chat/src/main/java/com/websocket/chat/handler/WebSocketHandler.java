@@ -8,8 +8,6 @@ import com.websocket.chat.events.EventType;
 import com.websocket.chat.pubsub.Publisher;
 import com.websocket.chat.services.TicketService;
 import com.websocket.chat.services.UserService;
-import lombok.AllArgsConstructor;
-import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Component;
@@ -22,7 +20,6 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.Flow;
 
 @Log4j2
 @Component

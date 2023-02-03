@@ -6,8 +6,8 @@
 var BACKEND_CONFIG = {
     // restHost: "https://curso-chat-ws.buscadev.com",
     // wsHost: "wss://curso-chat-ws.buscadev.com",
-    restHost: "http://localhost:80080",
-    wsHost: "wss://localhost:8080",
+    restHost: "http://localhost:8080",
+    wsHost: "ws://localhost:8080",
 
     pingInterval: 3000,
     pongTolerance: 9000

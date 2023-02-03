@@ -5,7 +5,6 @@ import com.websocket.chat.data.UserRepository;
 import com.websocket.chat.providers.TokenProvider;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.redis.core.RedisTemplate;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import java.time.Duration;
