@@ -1,0 +1,15 @@
+spring:
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: ${REDIS_PORT:6379}
+    mongodb:
+      uri: ${MONGO_DB_URI:mongodb://root:root@localhost}
+      database: ${MONGODB_DATABASE:chatDB}
+  cache:
+    type: redis
+    redis:
+      time-to-live: 10000
+app:
+  auth:
+    jwks-url: https://dev-e6m6cne2ro0wwcob.us.auth0.com/.well-known/jwks.json
