@@ -1,9 +1,7 @@
 package com.websocket.chat.controller;
 
 import com.websocket.chat.services.TicketService;
-import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.web.bind.annotation.*;
 

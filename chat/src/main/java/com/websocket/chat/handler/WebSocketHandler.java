@@ -113,6 +113,7 @@ public class WebSocketHandler extends TextWebSocketHandler {
     public void afterConnectionClosed(WebSocketSession session, CloseStatus status) throws Exception {
         log.info("[afterConnectionClosed] session id: {}", session.getId());
         String userId = userIds.get(session.getId());
+        if(userId == null) return;
         sessions.remove(userId);
         userIds.remove(session.getId());
     }
